@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module3 Assignment Solutions</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo-image"></div>
+				</a>
+				<div class="navbar-brand">
+					<a href="index.html">
+						<h1>Fulu's Kitchen</h1>
+					</a>
+					<p>
+						<img src="images/star.png" width="35px" height="35px" alt="Kosher Certification">
+						<span>Kosher Certified</span>
+					</p>
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		        </button>
+		    	</div>
+
+		        <div id="collapsable-nav" class="collapse navbar-collapse">
+		           <ul id="nav-list" class="nav navbar-nav navbar-right">
+                <li class="visible-xs">
+                  <a href="index.html">
+                    <span class="glyphicon glyphicon-home"></span> Home</a>
+                </li>
+		            <li class="active">
+		              <a href="menu-categories.html">
+		                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+		            </li>
+		            <li>
+		              <a href="#">
+		                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+		            </li>
+		            <li>
+		              <a href="#">
+		                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+		            </li>
+		            <li id="phone" class="hidden-xs">
+		              <a href="tel:072-345-6789">
+		                <span>072 345 6789</span></a><div>* We Deliver</div>
+		            </li>
+		          </ul>
+		      </div>
+			</div>
+		</nav>
+	</header>
+	<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:072 345 6789">
+    <span class="glyphicon glyphicon-earphone"></span>
+    072-345-6789
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+	<div id="main-content" class="container">
+     <h2 id="menu-categories-title" class="text-center"> Menu</h2>
+    <div class="text-center">Lunch is only served after 1pm</div>
+    <section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>F01</div>
+              <img class="img-responsive" width="250" height="150" src="images/feet.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">R20<span> (pint)</span> R14.95 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Chicken Feet</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+       <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>F02</div>
+              <img class="img-responsive" width="250" height="150" src="images/beef.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">R40<span> (pint)</span>R35 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Beef Stew</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>F03</div>
+              <img class="img-responsive" width="250" height="150" src="images/chicken.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">R30<span> (pint)</span> R25 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Chicken</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>F04</div>
+              <img class="img-responsive" width="250" height="150" src="images/bc.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">R30<span> (pint)</span>R27 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Burger & Fries</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>F05</div>
+              <img class="img-responsive" width="250" height="150" src="images/hake combo.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">R50<span> (pint)</span> R45<span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Hake</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>F06</div>
+              <img class="img-responsive" width="250" height="150" src="images/tripe.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">R45<span> (pint)</span> R40 <span>(quart)</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Tripe</h3>
+            <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+          </div>
+        <hr class="visible-xs">
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+      
+    </section>
+  </div><!-- End of #main-content -->
+	 
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 12:00 - 21:00<br>
+          Fri: 12:00 - 22:00<br>
+          Saturday 10:00 - 17:00
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          478 Phaphazela<br>
+          ZCC 2nd Street
+          <p>* Delivery area within Phaphazela, with minimum order of R150 plus R20 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"One of the most hygienic resturants in the country"</p>
+          <p>"The food is to die for and the service is superb!"</p>
+          <p>"They have the most mouth watering food"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright 2021</div>
+    </div>
+  </footer>
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/script.js"></script>
+
+
+</body>
+</html>
